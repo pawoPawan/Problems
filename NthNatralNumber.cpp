@@ -29,8 +29,9 @@ It is known that, digits of base 2 numbers varies from 0 to 1.
 Similarly, digits of base 10 numbers varies from 0 to 9.
 Therefore, the digits of base 9 numbers will vary from 0 to 8.
 It can be observed that Nth number in base 9 is equal to Nth number after skipping numbers containing digit 9.
-So the task is reduced to find the base 9 equivalent of the number N 
+So the task is reduced to find the base 9 equivalent of the number N.
 
+Or we can directly Convert N to base 9. N equivalent in base 9 will be Nth Natural number in base 10.
 Time Complexity: O(log9 N)
 Auxiliary Space: O(1)
 */

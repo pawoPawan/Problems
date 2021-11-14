@@ -23,3 +23,14 @@ lli FindNthNaturalNumberAfterExcludingNumberContainingDigit9(lli N)
   }
   return ret;
 }
+
+/*
+It is known that, digits of base 2 numbers varies from 0 to 1. 
+Similarly, digits of base 10 numbers varies from 0 to 9.
+Therefore, the digits of base 9 numbers will vary from 0 to 8.
+It can be observed that Nth number in base 9 is equal to Nth number after skipping numbers containing digit 9.
+So the task is reduced to find the base 9 equivalent of the number N 
+
+Time Complexity: O(log9 N)
+Auxiliary Space: O(1)
+*/
